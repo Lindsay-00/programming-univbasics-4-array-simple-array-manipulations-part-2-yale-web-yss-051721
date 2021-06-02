@@ -28,3 +28,4 @@ def using_delete (array, string)
   array.delete(string)
 end
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+p using_delete instructors, "Steven"
