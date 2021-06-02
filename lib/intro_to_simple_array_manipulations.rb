@@ -12,3 +12,6 @@ list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective 
 another_language = "Python"
 p using_insert list_of_programming_languages, another_language
 
+def using_uniq (array)
+  array.uniq
+end
