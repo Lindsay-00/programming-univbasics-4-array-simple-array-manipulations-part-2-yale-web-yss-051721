@@ -31,5 +31,8 @@ instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 p using_delete instructors, "Steven"
 
 def using_delete_at (array, integer)
-  array.delete_at()
+  array.delete_at(integer)
 end
+famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+integer = 2 
+p using_delete_at famous_robots, integer
