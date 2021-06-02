@@ -6,7 +6,7 @@ more_favs = ["sports cars", "flatiron school"]
 p using_concat my_favorite_things, more_favs
 
 def using_insert (array, element)
-  array.insert(3, element)
+  array.insert(4, element)
 end
 list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
 another_language = "Python"
