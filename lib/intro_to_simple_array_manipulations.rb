@@ -21,3 +21,5 @@ p using_uniq haircuts
 def using_flatten (array)
   array.flatten
 end
+instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+p using_flatten instruments
